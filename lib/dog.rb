@@ -1,9 +1,9 @@
 class Dog
   def name=(dogname)
-  dognamehere = dogname
+  @dognamehere = dogname
 end
 def name
-  dognamehere
+  @dognamehere
 end
   def bark
     puts "woof!"
