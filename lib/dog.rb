@@ -1,5 +1,11 @@
 class Dog
-  name=(dogname)
+  def name=(dogname)
   dognamehere = dogname
-  
+end
+def name
+  dognamehere
+end
+  def bark
+    puts "woof!"
+  end
   end# Your code goes here!
